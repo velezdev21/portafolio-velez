@@ -57,3 +57,31 @@ section p {
 #contacto strong {
   color: #0077cc;
 }
+
+/* 🔹 CONTACTO LISTA */
+.contacto-lista {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.contacto-lista li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacto-lista a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contacto-lista a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+
